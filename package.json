@@ -1,0 +1,19 @@
+{
+  "name": "reviews-app",
+  "version": "1.0.0",
+  "description": "Code Reviews App",
+  "main": "server.js",
+  "scripts": {
+    "server": "nodemon server.js"
+  },
+  "author": "Dinesh Venkata Sai Kokkirala",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^8.2.1",
+    "express": "^4.18.2",
+    "mongoose": "^7.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
