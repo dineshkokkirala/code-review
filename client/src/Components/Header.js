@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
 import "./Header.css"
+import { Link } from 'react-router-dom'
 
 class Header extends Component {
   render() {
@@ -7,12 +8,12 @@ class Header extends Component {
       
         <div className='navbar-links-custom navbar navbar-color text-light p-4'>
             <div>
-                <h3>Code Review App</h3>
+                <h3><Link className='custom-link' to="/">Code Review App</Link></h3>
             </div>
             <div>
                 <ul>
-                    <li>Completed Reviews</li>
-                    <li>Pending Reviews</li>
+                    <li><Link className='custom-link' to="/completed">Completed Reviews</Link></li>
+                    <li><Link className='custom-link' to="/pending">Pending Reviews</Link></li>
                 </ul>
             </div>
         </div>
