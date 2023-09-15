@@ -4,7 +4,9 @@
   "description": "Code Reviews App",
   "main": "server.js",
   "scripts": {
-    "server": "nodemon server.js"
+    "server": "nodemon server.js",
+    "client": "cd client && npm start",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
   },
   "author": "Dinesh Venkata Sai Kokkirala",
   "license": "ISC",
